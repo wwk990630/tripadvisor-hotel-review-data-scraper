@@ -1,0 +1,33 @@
+[
+  {
+    "data": {
+      "ReviewsProxy_getReviewListPageForLocation": [
+        {
+          "totalCount": 2,
+          "reviews": [
+            {
+              "id": "review-001",
+              "title": "A synthetic stay",
+              "text": "Synthetic fixture text one.",
+              "rating": 4,
+              "publishedDate": "2026-01-02",
+              "language": "en",
+              "userProfile": {
+                "id": "identity-must-not-be-exported",
+                "displayName": "Synthetic Person"
+              }
+            },
+            {
+              "id": "review-002",
+              "title": "Another synthetic stay",
+              "text": "Synthetic fixture text two.",
+              "rating": 5,
+              "publishedDate": "2026-01-03",
+              "language": "en"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
