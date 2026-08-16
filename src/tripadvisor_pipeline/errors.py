@@ -8,3 +8,11 @@ class GraphQLErrorResponse(TripAdvisorPipelineError):
 
 class ResponseShapeError(TripAdvisorPipelineError):
     """The response does not match a documented review envelope."""
+
+
+class RepeatedPageError(TripAdvisorPipelineError):
+    """A page fingerprint was observed at more than one offset."""
+
+
+class EmptyPageError(TripAdvisorPipelineError):
+    """Pagination ended before the advertised total was reached."""
