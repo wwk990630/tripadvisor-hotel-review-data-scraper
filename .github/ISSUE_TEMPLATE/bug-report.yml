@@ -1,0 +1,11 @@
+name: Bug report
+description: Report a reproducible non-sensitive defect
+title: "[Bug] "
+body:
+  - type: textarea
+    attributes:
+      label: Reproduction
+      description: Include environment, command, expected and actual behavior. Do not include credentials, cookies, captures, or personal data.
+    validations:
+      required: true
+
