@@ -1,5 +1,6 @@
 """Offline-testable components for TripAdvisor data-pipeline research."""
 
+from .checkpoint import CheckpointState
 from .errors import (
     EmptyPageError,
     GraphQLErrorResponse,
@@ -12,6 +13,7 @@ from .pagination import PageGuard
 from .parser import parse_review_page
 
 __all__ = [
+    "CheckpointState",
     "EmptyPageError",
     "GraphQLErrorResponse",
     "PageGuard",
