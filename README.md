@@ -17,15 +17,15 @@ No accounts, cookies, authorization material, live query identifiers, proxy sett
 
 ## Quick start
 
-\`\`\`bash
+```bash
 python -m pip install -e .[test]
 python -m pytest -q
 python scripts/check_public_tree.py .
-\`\`\`
+```
 
 ## Architecture
 
-\`artificial response → parser → normalized records → pagination guard → privacy-minimized checkpoint\`
+`artificial response → parser → normalized records → pagination guard → privacy-minimized checkpoint`
 
 See [architecture](docs/architecture.md), [evidence](docs/evidence.md), and [research history](docs/research-history.md).
 

@@ -8,4 +8,3 @@ body:
       description: Include environment, command, expected and actual behavior. Do not include credentials, cookies, captures, or personal data.
     validations:
       required: true
-

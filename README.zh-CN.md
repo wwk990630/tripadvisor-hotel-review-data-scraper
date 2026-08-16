@@ -10,15 +10,15 @@
 
 ## 快速开始
 
-\`\`\`bash
+```bash
 python -m pip install -e .[test]
 python -m pytest -q
 python scripts/check_public_tree.py .
-\`\`\`
+```
 
 ## 架构
 
-\`人工响应 → 解析器 → 标准化记录 → 分页保护 → 隐私最小化断点\`
+`人工响应 → 解析器 → 标准化记录 → 分页保护 → 隐私最小化断点`
 
 详见[架构](docs/architecture.md)、[证据](docs/evidence.md)和[研究历程](docs/research-history.md)。
 
@@ -45,4 +45,3 @@ python scripts/check_public_tree.py .
 ## 作者
 
 WenKang，南开大学研三学生。这里的软件与协议技术来自个人自学和项目实践。
-

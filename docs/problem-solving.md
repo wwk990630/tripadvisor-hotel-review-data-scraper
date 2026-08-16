@@ -23,4 +23,3 @@ The public package keeps stable records, explicit errors, page guards, provenanc
 ## Maintenance trigger
 
 Change parser logic only when a minimized artificial fixture reproduces a new response shape. Investigate transport failures separately from parser behavior.
-

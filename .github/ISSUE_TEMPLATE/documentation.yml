@@ -7,4 +7,3 @@ body:
       label: Question
     validations:
       required: true
-
