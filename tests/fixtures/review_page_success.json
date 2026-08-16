@@ -11,11 +11,7 @@
               "text": "Synthetic fixture text one.",
               "rating": 4,
               "publishedDate": "2026-01-02",
-              "language": "en",
-              "userProfile": {
-                "id": "identity-must-not-be-exported",
-                "displayName": "Synthetic Person"
-              }
+              "language": "en"
             },
             {
               "id": "review-002",

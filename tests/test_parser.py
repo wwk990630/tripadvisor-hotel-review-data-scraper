@@ -26,8 +26,12 @@ def load(name: str) -> list[dict]:
 
 
 def test_parses_current_review_proxy_envelope_without_identity_fields() -> None:
+    payload = load("review_page_success.json")
+    payload[0]["data"]["ReviewsProxy_getReviewListPageForLocation"][0]["reviews"][0][
+        "userProfile"
+    ] = {"id": "identity-must-not-be-exported", "displayName": "Synthetic Person"}
     records, total = parse_review_page(
-        load("review_page_success.json"),
+        payload,
         property_id="property-001",
         provenance=provenance(),
     )
