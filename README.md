@@ -1,5 +1,12 @@
 # TripAdvisor Data Pipeline Lab
 
+> [!NOTE]
+> This standalone case study has been consolidated into
+> [Travel Data Connectors](https://github.com/wwk990630/travel-data-connectors),
+> which is now the maintained home for shared contracts, pagination guards,
+> checkpoints, and cross-platform work. This repository remains available as
+> the historical TripAdvisor-specific implementation.
+
 An offline-testable case study in turning a changing web response into a
 reproducible data pipeline.
 
