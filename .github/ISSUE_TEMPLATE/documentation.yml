@@ -1,0 +1,9 @@
+name: Documentation question
+description: Ask about public docs or offline examples
+title: "[Docs] "
+body:
+  - type: textarea
+    attributes:
+      label: Question
+    validations:
+      required: true
